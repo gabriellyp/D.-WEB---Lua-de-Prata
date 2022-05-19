@@ -1,0 +1,51 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container-header{
+    display: flex;
+    position: fixed;
+    z-index: 1;
+    background-color: #93A9D1;
+    width: 100%;
+    align-items: center;
+    color: white;
+}
+
+.header-image{
+    width: 20vw;
+}
+
+.img-logo{
+    height: 70px;
+    margin-left: 30px;
+}
+
+.barra-nav{
+    height: 70px;
+    width: 60vw;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.link-header{
+    font-size: 20px;
+    margin: 0 10px;
+}
+
+.button-header{
+    height: 70px;
+    width: 20vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn-cadastro-header, .btn-login-header{
+    width: 100px;
+    height: 30px;
+    margin: 0 10px;
+}
